@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px; 
+    font-family: 'Roboto', sans-serif;
+    transition: 0.5s;
+    text-decoration: none;
+    
+}
+ 
+body{
+    scroll-behavior:smooth;
+    transition: 0.5s;
+}
+.container{
+    padding: 10px 100px;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #FF9B9B;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    color: #CBFFA9;
+    cursor: pointer;
+}
+/*------------------ end of basic css style  --------------------------- */
+
+
+.menu-container{
+    padding: 20px 100px;
+    background: #FF9B9B; 
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.menus{
+    display: flex;
+
+}
+.item{
+    margin-left: 20px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.item:hover{
+    color:#CBFFA9 ;
+}
+ /* end of navber section------------------------------------------ */
+
+.hero-contianer{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./images/background.png), linear-gradient(45deg , #000000f9 , #000000f6);
+    color: #fff;
+}
+.hero-text{
+    margin-right: 20px;
+}
+.hero-text h2{
+    font-size: 60px;
+}
+.hero-text p{
+    margin: 20px 0;
+}
+
+
+.hero-img img{
+    /* width: 400px; */
+    width: 500px;
+}
+
+
+
+/* end of hero section----------------------------------------------- */
+
+.about-heading{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.about-img img{
+    width: 500px;
+    margin-right: 100px;
+}
+.about-text{
+    width: 500px;
+    text-align: justify;
+}
+.about-text h2{
+    font-size: 30px;
+}
+
+
+/* end of about section  ----------------------------------- */
+
+.services{
+    background: #FF9B9B;
+    padding: 40px 0;
+}
+.services-heading{
+    font-size: 60px;
+    color: #fff;
+    text-align: center; 
+    margin-bottom: 40px;
+}
+.services-container{
+    display: flex;
+}
+.box-ser{
+    margin-left: 40px;
+}
+.services-item{
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+.services-item:hover{
+    transform: scale(1.1);
+}
+.services-item i{
+    font-size: 60px;
+}
+.services-item h3{
+    margin: 15px 0;
+}
+.services-item p{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* end of services ----------------------------------------------- */
+
+
+.blog-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.blog-container .blog-item img{
+    width: 100%;
+    height: 200px;
+}
+.blog-container .blog-item img:hover{
+    transform: scale(1.05);
+    
+}
+.blog-container .blog-item{
+    border: 4px solid #FF9B9B;
+    padding: 10px;
+    overflow: hidden;
+    margin: 30px 20px;
+}
+.blog-item p{
+    margin: 15px 0;
+}
+.blog-btn{
+    width: 100%;
+}
+
+
+/* end of blogs section ---------------------------------------- */
+
+.contact{
+    width: 400px;
+    margin: auto; 
+    
+}
+.from {
+    background: #FF9B9B;
+    padding: 30px;
+    margin: 50px 0;
+    border-radius: 5px;
+}
+.from input , textarea{
+    width: 96%;
+    padding: 10px ;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+
+
+}
+.from input[type="submit"]{
+    width: 100%; 
+    font-size: 15px;
+    padding: 15px;
+    background: #000;
+    color: #FF9B9B;
+    cursor: pointer;
+}
+.from input[type="submit"]:hover{
+    color: #fff;
+}
+
+/* end of Contact from ---------------------------------- */
+
+footer{
+    background: #000;
+}
+.footer-container{
+    padding: 50px 0;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px , 1fr ));
+    grid-gap: 30px;
+}
+.footer-container img{
+    width: 150px;
+}
+.footer-container p{
+    margin : 15px 0;
+    line-height: 1.6;
+    
+}
+.footer-container ul{
+    margin-top: 15px;
+    list-style: none;
+}
+.footer-container ul li{
+    line-height: 1.8;
+    cursor: pointer;
+}
+.footer-container ul li:hover{
+    color:blue;
+}
+
+.footer-copy-right-text{
+    color: #FF9B9B;
+    text-align: center;
+    margin: 10px 0;
+}
+.footer-copy-right-text i{
+    color: red;
+}
